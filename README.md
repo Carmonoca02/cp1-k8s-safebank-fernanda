@@ -44,9 +44,9 @@ kind get clusters
 ```
 **Evidência da criação**
 
-![image](.\assests\create-cluster.png)
+![image](./assests/create-cluster.png)
 
-![image](.\assests\docker-cluster.png)
+![image](./assests/docker-cluster.png)
 
 #### Acesso ao cluster
 
@@ -146,7 +146,7 @@ kubectl get ns
 
 **Evidência da criação**
 
-![image](.\assests\create-namespace.png)
+![image](./assests/create-namespace.png)
 
 
 #### Deploy de manifestos
@@ -193,15 +193,15 @@ kubectl get deployment -n safebank
 
 pod
 
-![image](.\assests\create-pod.png)
+![image](./assests/create-pod.png)
 
 service
 
-![image](.\assests\create-service.png)
+![image](./assests/create-service.png)
 
 deployment
 
-![image](.\assests\create-deployment.png)
+![image](./assests/create-deployment.png)
 
 #### Expor a aplicação  HTTP
 
@@ -216,9 +216,9 @@ Acessar http://localhost:80 no navegador
 
 **Evidência da exposição**
 
-![image](.\assests\expondo-aplicacao.png)
+![image](./assests/expondo-aplicacao.png)
 
-![image](.\assests\aplicacao.png)
+![image](./assests/aplicacao.png)
 
 
 #### Teste de Scale
@@ -238,11 +238,11 @@ kubectl get pods -n safebank
 
 Antes (2 pods)
 
-![image](.\assests\scale-2.png)
+![image](./assests/scale-2.png)
 
 Depois (5 pods)
 
-![image](.\assests\scale-5.png)
+![image](./assests/scale-5.png)
 
 
 

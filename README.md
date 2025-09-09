@@ -34,7 +34,7 @@ choco install kind
 #### Criação do cluster
 
 ```powershell
-kind create cluster --name $clustername
+kind create cluster --name cluster-safebank
 ```
 
 **Validação de criação**
